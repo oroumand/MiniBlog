@@ -21,17 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Endpoint", "3. Endpoint"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.Domain", "src\1. Core\MiniBlog.Core.Domain\MiniBlog.Core.Domain.csproj", "{6341021A-96ED-4A55-81E1-8E8744393CEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Core.Contracts", "src\1. Core\MiniBlog.Core.Contracts\MiniBlog.Core.Contracts.csproj", "{101E10AE-1342-4A4C-BC3F-F28F976F889B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.Contracts", "src\1. Core\MiniBlog.Core.Contracts\MiniBlog.Core.Contracts.csproj", "{101E10AE-1342-4A4C-BC3F-F28F976F889B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miniblog.Core.ApplicationService", "src\1. Core\Miniblog.Core.ApplicationService\Miniblog.Core.ApplicationService.csproj", "{B3AFC076-898E-45B4-B935-DE0A66327C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.ApplicationService", "src\1. Core\Miniblog.Core.ApplicationService\MiniBlog.Core.ApplicationService.csproj", "{B3AFC076-898E-45B4-B935-DE0A66327C2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{32B42A7E-3C12-44B7-ADA9-41294B12820A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Infra.Data.Sql.Commands", "src\2. Infra\Data\MiniBlog.Infra.Data.Sql.Commands\MiniBlog.Infra.Data.Sql.Commands.csproj", "{13009470-42B7-4157-990D-FCD0F952F593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Infra.Data.Sql.Commands", "src\2. Infra\Data\MiniBlog.Infra.Data.Sql.Commands\MiniBlog.Infra.Data.Sql.Commands.csproj", "{13009470-42B7-4157-990D-FCD0F952F593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Infra.Data.Sql.Queries", "src\2. Infra\Data\MiniBlog.Infra.Data.Sql.Queries\MiniBlog.Infra.Data.Sql.Queries.csproj", "{0F4D94A9-ECF2-4480-9793-1BA8A7D701F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Infra.Data.Sql.Queries", "src\2. Infra\Data\MiniBlog.Infra.Data.Sql.Queries\MiniBlog.Infra.Data.Sql.Queries.csproj", "{0F4D94A9-ECF2-4480-9793-1BA8A7D701F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Endpoints.API", "src\3. Endpoints\MiniBlog.Endpoints.API\MiniBlog.Endpoints.API.csproj", "{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Endpoints.API", "src\3. Endpoints\MiniBlog.Endpoints.API\MiniBlog.Endpoints.API.csproj", "{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

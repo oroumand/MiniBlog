@@ -10,7 +10,7 @@ namespace MiniBlog.Infra.Data.Sql.Commands.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "MyProperty",
+                name: "Blogs",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
@@ -25,8 +25,8 @@ namespace MiniBlog.Infra.Data.Sql.Commands.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MyProperty", x => x.Id);
-                    table.UniqueConstraint("AK_MyProperty_BusinessId", x => x.BusinessId);
+                    table.PrimaryKey("PK_Blogs", x => x.Id);
+                    table.UniqueConstraint("AK_Blogs_BusinessId", x => x.BusinessId);
                 });
 
             migrationBuilder.CreateTable(
@@ -55,7 +55,7 @@ namespace MiniBlog.Infra.Data.Sql.Commands.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "MyProperty");
+                name: "Blogs");
 
             migrationBuilder.DropTable(
                 name: "OutBoxEventItems");

@@ -12,7 +12,7 @@ using MiniBlog.Infra.Data.Sql.Commands.Common;
 namespace MiniBlog.Infra.Data.Sql.Commands.Migrations
 {
     [DbContext(typeof(MiniblogCommandDbContext))]
-    [Migration("20211226082957_init")]
+    [Migration("20211226104716_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,7 +60,7 @@ namespace MiniBlog.Infra.Data.Sql.Commands.Migrations
 
                     b.HasAlternateKey("BusinessId");
 
-                    b.ToTable("MyProperty");
+                    b.ToTable("Blogs");
                 });
 
             modelBuilder.Entity("Zamin.Infra.Events.Outbox.OutBoxEventItem", b =>

@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\1. Core\Miniblog.Core.ApplicationService\Miniblog.Core.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\1. Core\Miniblog.Core.ApplicationService\MiniBlog.Core.ApplicationService.csproj" />
     <ProjectReference Include="..\..\1. Core\MiniBlog.Core.Contracts\MiniBlog.Core.Contracts.csproj" />
     <ProjectReference Include="..\..\1. Core\MiniBlog.Core.Domain\MiniBlog.Core.Domain.csproj" />
     <ProjectReference Include="..\..\2. Infra\Data\MiniBlog.Infra.Data.Sql.Commands\MiniBlog.Infra.Data.Sql.Commands.csproj" />

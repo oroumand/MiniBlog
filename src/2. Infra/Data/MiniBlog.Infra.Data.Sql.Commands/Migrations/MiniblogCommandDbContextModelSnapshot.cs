@@ -58,7 +58,7 @@ namespace MiniBlog.Infra.Data.Sql.Commands.Migrations
 
                     b.HasAlternateKey("BusinessId");
 
-                    b.ToTable("MyProperty");
+                    b.ToTable("Blogs");
                 });
 
             modelBuilder.Entity("Zamin.Infra.Events.Outbox.OutBoxEventItem", b =>
