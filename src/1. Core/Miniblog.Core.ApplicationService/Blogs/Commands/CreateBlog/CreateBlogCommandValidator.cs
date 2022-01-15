@@ -15,9 +15,9 @@ namespace Miniblog.Core.ApplicationService.Blogs.Commands.CreateBlog
                 .MaximumLength(100).WithMessage(translator["MaximumLength", nameof(Title), "100"]);
 
             RuleFor(c => c.Description)
-                .NotNull().WithMessage(translator["Required", nameof(Description)])
-                .MinimumLength(50).WithMessage(translator["MinimumLength", nameof(Description), "50"])
-                .MaximumLength(500).WithMessage(translator["MaximumLength", nameof(Description), "500"]);
+                .NotNull().WithMessage(translator["Required", nameof(Description)]).WithErrorCode("1")
+                .MinimumLength(50).WithMessage(translator["MinimumLength", nameof(Description), "50"]).WithErrorCode("2")
+                .MaximumLength(500).WithMessage(translator["MaximumLength", nameof(Description), "500"]).WithErrorCode("3");
         }
     }
 }
