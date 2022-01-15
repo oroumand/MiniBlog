@@ -33,6 +33,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Infra.Data.Sql.Que
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Endpoints.API", "src\3. Endpoints\MiniBlog.Endpoints.API\MiniBlog.Endpoints.API.csproj", "{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B6359761-72D7-4EA9-9217-BEFFA0301AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Core.ApplicationService.Test", "test\1. Core\MiniBlog.Core.ApplicationService.Test\MiniBlog.Core.ApplicationService.Test.csproj", "{224A2F8D-F175-4A0F-913B-D5EEAC5D6D50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,10 @@ Global
 		{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224A2F8D-F175-4A0F-913B-D5EEAC5D6D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224A2F8D-F175-4A0F-913B-D5EEAC5D6D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224A2F8D-F175-4A0F-913B-D5EEAC5D6D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224A2F8D-F175-4A0F-913B-D5EEAC5D6D50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +89,8 @@ Global
 		{13009470-42B7-4157-990D-FCD0F952F593} = {32B42A7E-3C12-44B7-ADA9-41294B12820A}
 		{0F4D94A9-ECF2-4480-9793-1BA8A7D701F3} = {32B42A7E-3C12-44B7-ADA9-41294B12820A}
 		{D714E7CC-CA2F-4C5C-BBB8-66EECF1ED228} = {81DE7253-0AB5-4E48-8614-759C04CAE244}
+		{B6359761-72D7-4EA9-9217-BEFFA0301AC6} = {A990234A-6D80-437F-9274-62B6A6A8BEC8}
+		{224A2F8D-F175-4A0F-913B-D5EEAC5D6D50} = {7D0EBCBE-23F7-48E3-9E2A-0ED3F2B4283F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07B7D400-5E74-48AF-A2B5-2FC92393384D}

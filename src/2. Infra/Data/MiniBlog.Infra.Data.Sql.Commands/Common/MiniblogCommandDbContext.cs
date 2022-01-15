@@ -14,7 +14,7 @@ namespace MiniBlog.Infra.Data.Sql.Commands.Common
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
         {
             configurationBuilder.Properties<Description>().HaveConversion<DescriptionConversion>();
-            configurationBuilder.Properties<Title>().HaveConversion<TitleConversion>();
+            configurationBuilder.Properties<Title>().HaveConversion<TitleConversion>();         
         }
     }
 }
